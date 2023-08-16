@@ -101,7 +101,7 @@ function encerrarJogo(vencedor = null){
 
     let contador =3;
     setInterval(()=>{
-        h3.innerHTML= ` Reiciando em ${contador --}`;
+        h3.innerHTML= ` Reiniciando em ${contador --}`;
     }, 1000);
 
     setTimeout(()=> location.reload(),4000);
